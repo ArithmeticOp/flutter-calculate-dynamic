@@ -33,7 +33,7 @@ class _CalculateWidgetState extends State<CalculateWidget> {
             _focus.add(new FocusNode());
             _controllers.add(new TextEditingController());
             return TextFormField(
-              decoration: InputDecoration(suffixText: "กก.", hintText: "00.00"),
+              decoration: InputDecoration(suffixText: "จำนวน.", hintText: "00.00"),
               textInputAction: TextInputAction.next,
               focusNode: _focus[index],
               onFieldSubmitted: (v) {
